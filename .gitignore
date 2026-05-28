@@ -25,18 +25,26 @@ secrets.json
 config_local.py
 
 # ── Datos (pueden ser pesados) ───────────────────────────────
-data/raw/
-data/processed/
-data/labeled/
-data/splits/
+data/raw/*
+data/processed/*
+data/labeled/*
+data/splits/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/labeled/.gitkeep
+!data/splits/.gitkeep
 
 # ── Modelos entrenados ───────────────────────────────────────
-models/trained_models/
+models/trained_models/*
+!models/trained_models/.gitkeep
 
 # ── Outputs generados ────────────────────────────────────────
-output/figures/
-output/tables/
-output/metrics/
+output/figures/*
+output/tables/*
+output/metrics/*
+!output/figures/.gitkeep
+!output/tables/.gitkeep
+!output/metrics/.gitkeep
 
 # ── OS ───────────────────────────────────────────────────────
 .DS_Store
