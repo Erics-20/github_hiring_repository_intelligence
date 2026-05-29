@@ -14,7 +14,7 @@ torch==2.3.0
 scikit-learn==1.5.0
 
 # ── LLM clients ─────────────────────────────────────────────
-openai==1.30.1    # DeepSeek usa el cliente de OpenAI con base URL distinta
+openai>=1.52.0    # DeepSeek usa el cliente de OpenAI con base URL distinta
 
 # ── Visualización ────────────────────────────────────────────
 matplotlib==3.9.0
